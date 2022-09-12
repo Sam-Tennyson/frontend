@@ -13,9 +13,9 @@ const PostPage = ({post}) => {
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
                 {post?.attributes?.Title}
                 </h2>
-                <p className="leading-relaxed">
+                <div className="leading-relaxed">
                 {post?.attributes?.Content}
-                </p>
+                </div>
                 
               </div>
             </div>

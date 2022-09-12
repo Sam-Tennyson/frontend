@@ -16,9 +16,9 @@ const PostPreview = ({ postData }) => {
           <Link href={`/posts/${postData.id}`}>
             <div className="font-bold text-3xl mb-2 cursor-pointer">{postData.attributes.Title}</div>
           </Link>
-          <p className="text-gray-700 text-base">
+          <div className="text-gray-700 text-base">
           {postData.attributes.Description}.
-          </p>
+          </div>
         </div>
         <div className="px-6 pt-4 pb-2">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
