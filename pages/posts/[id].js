@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import { getPost, getSinglePost } from "../../Services";
 
 const PostPage = ({post}) => {
   return <>
@@ -29,18 +30,16 @@ const PostPage = ({post}) => {
 export default PostPage;
 
 export async function getStaticProps({params}) {
-    const res = await axios.get(`http://localhost:1337/api/posts/${params.id}`);
-
+  const res = await getSinglePost(params?.id)
   return {
-    props: {post: res.data.data},
+    props: {post: res.data},
   };
 }
 
 export async function getStaticPaths() {
-  const res = await axios.get("http://localhost:1337/api/posts");
-  const pathss = res.data;
-//   console.log(pathss,"pathss")
-  const paths =  pathss.data.map((item) => {
+  const res = await getPost()
+  const pathss = await res.data;
+  const paths =  pathss.map((item) => {
     return { params: { id: item.id.toString() } };
   });
   return {

@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React from 'react'
 import AllPost from '../components/molecules/AllPost'
+import { getPost } from '../Services'
 
 const Posts = ({postData}) => {
   return (
@@ -14,8 +15,8 @@ const Posts = ({postData}) => {
 export default Posts
 
 export async function getStaticProps() {
-  const res = await axios.get("http://localhost:1337/api/posts")
-  const postData = await res.data;
+  const postData = await getPost()
+
   return { 
     props: { 
       postData: postData.data

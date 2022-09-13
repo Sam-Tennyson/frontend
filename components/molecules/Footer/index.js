@@ -10,9 +10,9 @@ const Footer = () => {
           
             <span className="ml-3 text-xl"> <img src={"logo.png"} alt="error" width={"80px"}/></span>
           
-          <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+          <div className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 {WEBSITE_NAME} — All Rights Reserved 
-          </p>
+          </div>
           <ul className="flex flex-wrap flex-col sm:flex-row sm:px-10 items-center mt-3 text-0.5sm sm:text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <Link href={"/privacy-and-policy"}>
               <li>
