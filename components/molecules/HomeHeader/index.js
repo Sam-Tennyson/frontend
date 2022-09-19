@@ -10,7 +10,7 @@ const HomeHeader = () => {
             src="teacher.png"
             alt=""
           />
-          <div className="p-6 flex flex-col justify-start">
+          <div className="flex flex-col justify-start">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
               Javascript blog
             </h5>

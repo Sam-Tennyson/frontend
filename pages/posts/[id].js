@@ -1,10 +1,10 @@
-import axios from "axios";
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import { getPost, getSinglePost } from "../../Services";
 
 const PostPage = ({post}) => {
   return <>
-    <section className="w-4/5 m-auto mt-4">
+    <section className="w-4/5 m-auto mt-4 text-justify">
         <div className="container px-5  mx-auto">
           <div className=" divide-y-2 divide-gray-100">          
               
@@ -12,10 +12,10 @@ const PostPage = ({post}) => {
               
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                {post?.attributes?.Title}
+                  {post?.attributes?.Title}
                 </h2>
                 <div className="leading-relaxed">
-                {post?.attributes?.Content}
+                    <ReactMarkdown children={post?.attributes?.Content} escapeHtml={true} />
                 </div>
                 
               </div>
