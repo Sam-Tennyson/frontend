@@ -2,7 +2,12 @@ import { getPost, getSinglePost } from "../Services";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.funwithjs.com/schemas/sitemap/0.9">
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://www.funwithjs.com</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.7</priority>
+        </url>
         <url>
             <loc>https://www.funwithjs.com/posts</loc>
             <changefreq>daily</changefreq>
