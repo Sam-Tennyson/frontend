@@ -23,7 +23,7 @@ function generateSiteMap(posts) {
         </url>
         ${posts.map(({ id }) => {
             return `<url>
-                        <loc>`https://www.funwithjs.com/posts/${id}`}</loc>
+                        <loc>https://www.funwithjs.com/posts/${id}}</loc>
                     </url>
                 `;}).join('')}
     </urlset>`
