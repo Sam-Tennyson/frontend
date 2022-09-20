@@ -1,3 +1,5 @@
+import { getPost, getSinglePost } from "../Services";
+
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.funwithjs.com/schemas/sitemap/0.9">
@@ -30,21 +32,38 @@ function generateSiteMap(posts) {
 }
 
 
-export async function getStaticProps({params}) {
-  const res = await getSinglePost(params?.id)
+// export async function getServerSideProps() {
+//   const res = await getPost()
+//   const pathss = await res.data;
+//   const paths =  pathss.map((item) => {
+//     return { params: { id: item.id.toString() } };
+//   });
+//   return {
+//     paths,
+//     fallback: false,
+//   };
+// }
+
+function SiteMap() {
+  // getServerSideProps will do the heavy lifting
+}
+
+export async function getServerSideProps({ res }) {
+  // We make an API call to gather the URLs for our site
+  const request = await getPost()
+  const posts = await request.data;
+
+  // We generate the XML sitemap with the posts data
+  const sitemap = generateSiteMap(posts);
+
+  res.setHeader('Content-Type', 'text/xml');
+  // we send the XML to the browser
+  res.write(sitemap);
+  res.end();
+
   return {
-    props: {post: res.data},
+    props: {},
   };
 }
 
-export async function getStaticPaths() {
-  const res = await getPost()
-  const pathss = await res.data;
-  const paths =  pathss.map((item) => {
-    return { params: { id: item.id.toString() } };
-  });
-  return {
-    paths,
-    fallback: false,
-  };
-}
+export default SiteMap;
