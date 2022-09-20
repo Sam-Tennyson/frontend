@@ -11,7 +11,7 @@ const TermsAndConditions = () => {
 
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of Fun-wth-js's Website, located at https://www.funwithjs.com.
+        of Fun-wth-js&apos;s Website, located at https://www.funwithjs.com.
       </p>
 
       <p>
@@ -22,15 +22,15 @@ const TermsAndConditions = () => {
 
       <p>
         The following terminology applies to these Terms and Conditions, Privacy
-        Statement and Disclaimer Notice and all Agreements: "Client", "You" and
-        "Your" refers to you, the person log on this website and compliant to
-        the Company's terms and conditions. "The Company", "Ourselves", "We",
-        "Our" and "Us", refers to our Company. "Party", "Parties", or "Us",
+        Statement and Disclaimer Notice and all Agreements: &ldquo;Client&rdquo;, &ldquo;You&rdquo; and
+        &ldquo;Your&rdquo; refers to you, the person log on this website and compliant to
+        the Company&apos;s terms and conditions. &ldquo;The Company&rdquo;, &ldquo;Ourselves&rdquo;, &ldquo;We&rdquo;,
+        &ldquo;Our&rdquo; and &ldquo;Us&rdquo;, refers to our Company. &ldquo;Party&rdquo;, &ldquo;Parties&rdquo;, or &ldquo;Us&rdquo;,
         refers to both the Client and ourselves. All terms refer to the offer,
         acceptance and consideration of payment necessary to undertake the
         process of our assistance to the Client in the most appropriate manner
-        for the express purpose of meeting the Client's needs in respect of
-        provision of the Company's stated services, in accordance with and
+        for the express purpose of meeting the Client&apos;s needs in respect of
+        provision of the Company&apos;s stated services, in accordance with and
         subject to, prevailing law of Netherlands. Any use of the above
         terminology or other words in the singular, plural, capitalization
         and/or he/she or they, are taken as interchangeable and therefore as
@@ -43,7 +43,7 @@ const TermsAndConditions = () => {
 
       <p>
         We employ the use of cookies. By accessing Fun-wth-js, you agreed to use
-        cookies in agreement with the Fun-wth-js's Privacy Policy.{" "}
+        cookies in agreement with the Fun-wth-js&apos;s Privacy Policy.{" "}
       </p>
 
       <p>
@@ -191,7 +191,7 @@ const TermsAndConditions = () => {
         These organizations may link to our home page so long as the link: (a)
         is not in any way deceptive; (b) does not falsely imply sponsorship,
         endorsement or approval of the linking party and its products or
-        services; and (c) fits within the context of the linking party's site.
+        services; and (c) fits within the context of the linking party&apos;s site.
       </p>
 
       <p>
@@ -211,12 +211,12 @@ const TermsAndConditions = () => {
         <li>
           By use of any other description of our Website being linked to that
           makes sense within the context and format of content on the linking
-          party's site.
+          party&apos;s site.
         </li>
       </ul>
 
       <p>
-        No use of Fun-wth-js's logo or other artwork will be allowed for linking
+        No use of Fun-wth-js&apos;s logo or other artwork will be allowed for linking
         absent a trademark license agreement.
       </p>
 

@@ -15,7 +15,10 @@ const PostPage = ({post}) => {
                   {post?.attributes?.Title}
                 </h2>
                 <div className="leading-relaxed">
-                    <ReactMarkdown children={post?.attributes?.Content} escapeHtml={true} />
+                  {// eslint-disable-next-line
+                  }
+                  <ReactMarkdown >{post?.attributes?.Content}</ReactMarkdown>
+                    {/* <ReactMarkdown children={post?.attributes?.Content} escapeHtml={true} /> */}
                 </div>
                 
               </div>
