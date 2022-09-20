@@ -1,9 +1,13 @@
+import Head from "next/head";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { getPost, getSinglePost } from "../../Services";
 
 const PostPage = ({post}) => {
   return <>
+    <Head>
+      <title>Current Post</title>
+    </Head>
     <section className="w-4/5 m-auto mt-4 text-justify">
         <div className="container px-5  mx-auto">
           <div className=" divide-y-2 divide-gray-100">          

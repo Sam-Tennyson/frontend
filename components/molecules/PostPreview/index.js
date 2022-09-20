@@ -6,7 +6,7 @@ const PostPreview = ({ postData }) => {
   return (
     <>
       
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="rounded overflow-hidden shadow-lg">
         <img
           className="w-full"
           src="templateLogo.png"

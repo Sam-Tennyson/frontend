@@ -1,7 +1,13 @@
+import Head from "next/head";
 import React from "react";
 
 const TermsAndConditions = () => {
   return (
+    <>
+    <Head>
+        <title>Terms-and-Conditions</title>
+      </Head>
+      
     <div className="w-4/5 m-auto text-justify font-abc">
       <h2 className="my-4 text-3xl font-bold">
         <strong>Terms and Conditions</strong>
@@ -322,6 +328,7 @@ const TermsAndConditions = () => {
         damage of any nature.
       </p>
     </div>
+    </>
   );
 };
 

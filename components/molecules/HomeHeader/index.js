@@ -3,10 +3,15 @@ import React from "react";
 const HomeHeader = () => {
   return (
     <>
-      <div className="flex justify-center w-full mb-4">
+      <div className="flex justify-center md:flex-col w-full mb-4">
+          <img
+            className="hidden md:block lg:hidden"
+            src="teacher.png"
+            alt=""
+          />
         <div className="flex flex-col md:flex-row sm:flex-col rounded-lg bg-white">
           <img
-            className=" lg:w-2/5 lg:block lg:h-auto  object-cover md:hidden rounded-t-lg md:rounded-none md:rounded-l-lg"
+            className=" lg:w-2/5 lg:block lg:h-auto md:hidden  object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
             src="teacher.png"
             alt=""
           />

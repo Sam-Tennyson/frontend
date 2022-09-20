@@ -7,6 +7,7 @@ const HomeLatestPost = ({ postData }) => {
   const renderPostPreviews = () => {
     return data.map((item, index) => {
       return (
+        // <div className="p-4 " key={index}>
         <div className="p-4 md:4/5 lg:w-1/3" key={index}>
           <PostPreview postData={item} />
         </div>
@@ -21,7 +22,7 @@ const HomeLatestPost = ({ postData }) => {
   return (
     <>
       <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-500">Latest Posts</h2>
-      <div className="flex flex-wrap -m-4">{renderPostPreviews()}</div>
+      <div className="flex flex-wrap justify-around -m-4">{renderPostPreviews()}</div>
       {!data.length ? <h2 className="sm:text-3xl my-5 text-center text-2xl font-medium title-font mb-4 text-black">No post found</h2>: null}
     </>
   );

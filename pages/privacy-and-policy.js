@@ -1,7 +1,12 @@
+import Head from "next/head";
 import React from "react";
 
 const PrivacyAndPolicy = () => {
   return (
+    <>
+    <Head>
+        <title>Privacy-Policy</title>
+      </Head>
     <div className="w-4/5 m-auto text-justify font-abc">
       <h1 className="my-4 text-3xl font-bold">
         Privacy Policy for Fun-with-js
@@ -222,6 +227,7 @@ const PrivacyAndPolicy = () => {
         to promptly remove such information from our records.
       </p>
     </div>
+    </>
   );
 };
 

@@ -1,7 +1,12 @@
+import Head from "next/head";
 import React from "react";
 
 const Disclaimer = () => {
   return (
+    <>
+      <Head>
+          <title>Disclaimer</title>
+      </Head>
     <div className="w-4/5 m-auto text-justify font-abc">
       <h1 className="my-4 text-3xl font-bold">Disclaimer for Fun-with-js</h1>
 
@@ -55,6 +60,7 @@ const Disclaimer = () => {
         changes will be prominently posted here.
       </p>
     </div>
+    </>
   );
 };
 

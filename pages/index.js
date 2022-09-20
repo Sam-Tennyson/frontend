@@ -4,8 +4,6 @@ import HomeLatestPost from "../components/molecules/HomeLatestPost";
 import { getPost } from "../Services";
 import Head from "next/head"
 
-
-
 export default function Home({postData}) {
   // console.log("postData",postData);
   return (
