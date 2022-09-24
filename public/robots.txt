@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /api
 
 # Host
-Host: http://localhost:1337
+Host: https://funwithjs.com
 
 # Sitemaps
-Sitemap: http://localhost:1337/sitemap.xml
+Sitemap: https://funwithjs.com/sitemap.xml

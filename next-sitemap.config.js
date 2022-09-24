@@ -2,7 +2,8 @@
 // Default code you can customize according to your requirements.
 module.exports = {
   // siteUrl: process.env.STRAPI_LOCAL_URL || "https://funwithjs.com",
-  siteUrl: "http://localhost:1337",
+  // siteUrl: "http://localhost:1337",
+  siteUrl: "https://funwithjs.com",
 
   generateRobotsTxt: true, // (optional)
 
