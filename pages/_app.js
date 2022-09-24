@@ -1,11 +1,17 @@
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Footer from '../components/molecules/Footer'
 import Navbar from '../components/molecules/Navbar'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
+  const { asPath } = useRouter();
   return (
     <>
     <Navbar />
+      <Head>
+        <link rel="canonical" key="canonical" href={asPath}/>
+      </Head>
     <Component {...pageProps} />
     <Footer />
     </>
