@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <Navbar />
       <Head>
         <link rel="canonical" key="canonical" href={asPath}/>
+        <meta name="robots" content="noindex"></meta>
       </Head>
     <Component {...pageProps} />
     <Footer />

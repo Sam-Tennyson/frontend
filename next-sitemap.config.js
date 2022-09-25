@@ -11,7 +11,11 @@ module.exports = {
     policies: [
       {
         userAgent: "*",
-        disallow: "/api"
+        allow: "/",
+
+        userAgent: "Googlebot",
+        disallow: "/nogooglebot/"
+
       },
     ],
 

@@ -1,6 +1,7 @@
-# *
-User-agent: *
-Disallow: /api
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /nogooglebot/
 
 # Host
 Host: https://funwithjs.com
