@@ -6,6 +6,8 @@ const TermsAndConditions = () => {
     <>
     <Head>
         <title>Terms-and-Conditions</title>
+        <meta name="description" content="Terms and conditions" />
+        {/* <meta name="robots" content="noindex"></meta> */}
       </Head>
       
     <div className="w-4/5 m-auto text-justify font-abc">

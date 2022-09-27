@@ -11,6 +11,8 @@ export default function Home({postData}) {
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta charSet="utf-8" />
+        <meta name="description" content="Javascript Basic" />
+        {/* <meta name="robots" content="noindex"></meta> */}
         <title>Fun-with-js</title>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         <meta name="google-site-verification" content="YMsjE6W20AJUEXp9l2Y7ywCnuKpKETSied8zYAsGq6U" />

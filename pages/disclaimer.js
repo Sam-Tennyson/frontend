@@ -6,6 +6,8 @@ const Disclaimer = () => {
     <>
       <Head>
           <title>Disclaimer</title>
+          <meta name="description" content="Disclaimer" />
+        {/* <meta name="robots" content="noindex"></meta> */}
       </Head>
     <div className="w-4/5 m-auto text-justify font-abc">
       <h1 className="my-4 text-3xl font-bold">Disclaimer for Fun-with-js</h1>

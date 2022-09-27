@@ -6,6 +6,8 @@ const PrivacyAndPolicy = () => {
     <>
     <Head>
         <title>Privacy-Policy</title>
+        <meta name="description" content="Privary and policy" />
+        {/* <meta name="robots" content="noindex"></meta> */}
       </Head>
     <div className="w-4/5 m-auto text-justify font-abc">
       <h1 className="my-4 text-3xl font-bold">
