@@ -1,12 +1,16 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { getPost, getSinglePost } from "../../Services";
 
 const PostPage = ({post}) => {
+  const { asPath } = useRouter();
   return <>
     <Head>
       <title>Current Post</title>
+      <meta name="description" content={post?.attributes?.Description} />
+      <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
     </Head>
     <section className="w-4/5 m-auto mt-4 text-justify">
         <div className="container px-5  mx-auto">

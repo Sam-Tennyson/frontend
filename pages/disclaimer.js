@@ -1,10 +1,14 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
 
 const Disclaimer = () => {
+  const { asPath } = useRouter();
+  console.log(process.env.URL,"",asPath);
   return (
     <>
       <Head>
+          <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
           <title>Disclaimer</title>
           <meta name="description" content="Disclaimer" />
         {/* <meta name="robots" content="noindex"></meta> */}

@@ -1,12 +1,15 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
 
 const TermsAndConditions = () => {
+  const { asPath } = useRouter();
   return (
     <>
     <Head>
         <title>Terms-and-Conditions</title>
         <meta name="description" content="Terms and conditions" />
+        <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
         {/* <meta name="robots" content="noindex"></meta> */}
       </Head>
       

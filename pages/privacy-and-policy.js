@@ -1,12 +1,15 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
 
 const PrivacyAndPolicy = () => {
+  const { asPath } = useRouter();
   return (
     <>
     <Head>
         <title>Privacy-Policy</title>
         <meta name="description" content="Privary and policy" />
+        <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
         {/* <meta name="robots" content="noindex"></meta> */}
       </Head>
     <div className="w-4/5 m-auto text-justify font-abc">
