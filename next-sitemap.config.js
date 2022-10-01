@@ -14,7 +14,7 @@ module.exports = {
         allow: "/",
 
         userAgent: "Googlebot",
-        disallow: "/nogooglebot/"
+ 
 
       },
     ],
