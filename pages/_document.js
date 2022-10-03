@@ -12,6 +12,7 @@ export default function Document() {
         <Script strategy={"lazyOnload"} async src={`https://www.googletagmanager.com/gtag/js?id${process.env.GA_ID}`} />
         <Script
             strategy={"lazyOnload"}
+            id="gtm-script"
           dangerouslySetInnerHTML={{
             __html: `
             window.dataLayer = window.dataLayer || [];
