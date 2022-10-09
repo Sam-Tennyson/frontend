@@ -13,7 +13,7 @@ const Navbar = () => {
             {/* <span className="ml-3 text-xl">{WEBSITE_NAME}</span> */}
           </a></Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <Link href={"/posts"}>
+            <Link href={"/all-posts"}>
                 <a className="mr-5 text-3xl hover:text-gray-900">All Post</a> 
             </Link>
           </nav>

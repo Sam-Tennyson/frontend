@@ -4,9 +4,11 @@ import HomeLatestPost from "../components/molecules/HomeLatestPost";
 import { getPost } from "../Services";
 import Head from "next/head"
 import { useRouter } from "next/router";
+import { data } from "./data";
 
 export default function Home({postData}) {
-  // console.log("postData",postData);
+  console.log("postData",postData);
+  console.log("dummy data", data);
   const { asPath } = useRouter();
   return (
     <>
@@ -22,18 +24,18 @@ export default function Home({postData}) {
       </Head>
       <div className="w-4/5 m-auto mt-4">
         <HomeHeader />
-        <HomeLatestPost postData={postData} />
+        <HomeLatestPost postData={data} />
       </div>
     </>
   );
 }
 
-export async function getStaticProps() {
-  const postData = await getPost()
+// export async function getStaticProps() {
+//   const postData = await getPost()
 
-  return { 
-    props: { 
-      postData: postData.data
-    } 
-  }
-}
+//   return { 
+//     props: { 
+//       postData: postData.data
+//     } 
+//   }
+// }

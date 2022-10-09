@@ -6,6 +6,7 @@ import { getPost, getSinglePost } from "../../Services";
 
 const PostPage = ({post}) => {
   const { asPath } = useRouter();
+  console.log(post);
   return <>
     <Head>
       <title>Current Post</title>
@@ -20,7 +21,7 @@ const PostPage = ({post}) => {
               
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                  {post?.attributes?.Title}
+                  {post?.attributes?.Title} klkl
                 </h2>
                 <div className="leading-relaxed">
                   {// eslint-disable-next-line

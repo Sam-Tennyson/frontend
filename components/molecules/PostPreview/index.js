@@ -3,6 +3,7 @@ import Link from "next/link";
 import moment from "moment";
 
 const PostPreview = ({ postData }) => {
+  console.log(postData.Route);
   return (
     <>
       
@@ -13,7 +14,8 @@ const PostPreview = ({ postData }) => {
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
-          <Link href={`/posts/${postData.id}`}>
+          {/* <Link href={`/posts/${postData.id}`}> */}
+          <Link href={`${postData?.attributes?.Route}`}>
             <div className="font-bold text-3xl mb-2 cursor-pointer">{postData.attributes.Title}</div>
           </Link>
           <div className="text-gray-700 text-base">
