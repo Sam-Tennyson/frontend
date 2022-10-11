@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { getPost, getSinglePost } from "../../Services";
-import { data } from "../data";
+import { data } from "../../postData/data";
 
 const Promises = ({ post }) => {
   const { asPath } = useRouter();

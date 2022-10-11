@@ -1,8 +1,7 @@
-import f from "../public/Varlet/1.png";
-import { qa_promise_await } from "./async-await/qa_async_await";
-import { qa_callback } from "./callback/qa_callback";
-import { qa_promise } from "./promises/qa_promises";
-import { qa_VLC } from "./var-let-const/data";
+import qa_promise_await from "./qa_async_await";
+import qa_callback from "./qa_callback";
+import qa_promise from "./qa_promises";
+import qa_VLC from "./qa_VLC";
 
 export const data = [
   {

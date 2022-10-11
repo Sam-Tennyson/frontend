@@ -2,8 +2,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import { data } from "../../postData/data";
 import { getPost, getSinglePost } from "../../Services";
-import { data } from "../data";
 
 const Promises = ({ post }) => {
   const { asPath } = useRouter();

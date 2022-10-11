@@ -9,7 +9,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <script data-ad-client="ca-pub-4685384744669195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
         {/* <Script data-ad-client="" async src="" /> */}
         <Script strategy={"lazyOnload"} async src={`https://www.googletagmanager.com/gtag/js?id${process.env.GA_ID}`} />
         <Script

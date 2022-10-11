@@ -3,13 +3,13 @@ import { useRouter } from "next/router";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { getPost, getSinglePost } from "../../Services";
-import { data } from "../data";
+import { data } from "../../postData/data";
 
 const VarLetConst = ({ post }) => {
   const { asPath } = useRouter();
 
   const currentData = data.find((item) => item.attributes.Route == asPath);
-  console.log(currentData.attributes.Title);
+  console.log(currentData.attributes);
   return (
     <>
       <Head>

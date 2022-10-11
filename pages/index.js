@@ -4,10 +4,11 @@ import HomeLatestPost from "../components/molecules/HomeLatestPost";
 import { getPost } from "../Services";
 import Head from "next/head"
 import { useRouter } from "next/router";
-import { data } from "./data";
+import { data } from "../postData/data";
 
-export default function Home({postData}) {
-  console.log("postData",postData);
+// export default function Home({props, postData}) {
+export default function Home(props) {
+  console.log("postData", props);
   console.log("dummy data", data);
   const { asPath } = useRouter();
   return (
@@ -37,5 +38,20 @@ export default function Home({postData}) {
 //     props: { 
 //       postData: postData.data
 //     } 
+//   }
+// }
+
+// import fsPromises from 'fs/promises';
+// import path from 'path'
+// export async function getStaticProps() {
+//   const filePath = path.join(process.cwd(), 'postData/var-let-const.json');
+//   console.log(filePath, "filePath")
+//   const jsonData = await fsPromises.readFile(filePath);
+//   console.log(jsonData, "jsonData")
+//   const objectData = JSON.parse(jsonData);
+//   console.log(objectData, "objectData")
+
+//   return {
+//     props: objectData
 //   }
 // }

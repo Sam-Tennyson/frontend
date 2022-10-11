@@ -1,4 +1,4 @@
-export const qa_promise = [
+const qa_promise = [
     {
         pic: "promise1.png",
         Ques: "",
@@ -15,3 +15,5 @@ export const qa_promise = [
         Ans: "As I told in last example that Promise takes two argument (i.e., resolve and reject) and Promise makes sure that either it will resolved or rejected . Once promised resolve then only control goes to 'then' part like in the example. And we got output in the order we want.",
     },
 ]
+
+export default qa_promise

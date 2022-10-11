@@ -1,4 +1,4 @@
-export const qa_VLC = [
+const qa_VLC = [
     {
       pic: "1.png",
       Ques: "",
@@ -30,3 +30,5 @@ export const qa_VLC = [
       Ans: "Since, let variable has block scope. So we can not declare same variable within the same scope. but here the case is different we are declaring varible in different scope. Hence we are getting different output.",
     },
 ]
+
+export default qa_VLC

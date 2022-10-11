@@ -1,6 +1,7 @@
+import { data } from "../../postData/data";
 import React, { useEffect, useState } from "react";
 import PostPreview from "../../components/molecules/PostPreview";
-import { data } from "../data";
+
 const ShowAll = ({ postData }) => {
   const [alldata, setData] = useState(data);
   // console.log(data, postData);
