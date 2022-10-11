@@ -16,14 +16,21 @@ const ShowAll = ({ postData }) => {
     });
   };
 
-
   return (
-    <><div className="w-4/5 m-auto">
-
-      <h2 className="sm:text-3xl text-2xl font-medium title-font my-4 mb-4 text-gray-500 text-center">Important  Topics</h2>
-      <div className="flex flex-wrap justify-around   ">{renderPostPreviews()}</div>
-      {!data.length ? <h2 className="sm:text-3xl my-5 text-center text-2xl font-medium title-font mb-4 text-black">No post found</h2>: null}
-    </div>
+    <>
+      <div className="w-4/5 m-auto">
+        <h2 className="sm:text-3xl text-2xl font-medium title-font my-4 mb-4 text-gray-500 text-center">
+          Important Topics
+        </h2>
+        <div className="flex flex-wrap justify-around   ">
+          {renderPostPreviews()}
+        </div>
+        {!data.length ? (
+          <h2 className="sm:text-3xl my-5 text-center text-2xl font-medium title-font mb-4 text-black">
+            No post found
+          </h2>
+        ) : null}
+      </div>
     </>
   );
 };

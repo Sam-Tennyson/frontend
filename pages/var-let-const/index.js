@@ -13,10 +13,10 @@ const VarLetConst = ({ post }) => {
   return (
     <>
       <Head>
-        <title>Current Post</title>
-        {/* <meta name="description" content={post?.attributes?.Description} />
-      <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/> */}
-      </Head>
+      <title>Current Post</title>
+      <meta name="description" content={currentData?.attributes?.Description} />
+      <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
+    </Head>
       <section className="w-4/5 m-auto mt-4 text-justify">
         <div className="container px-5  mx-auto">
           <div className=" divide-y-2 divide-gray-100">
