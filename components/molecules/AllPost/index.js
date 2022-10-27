@@ -6,7 +6,7 @@ const AllPost = ({ postData }) => {
     return postData.map((item, index) => {
       return (
         <>
-          <div className="p-4 md:4/5 lg:w-1/3" key={index}>
+          <div className="py-4 md:4/5 lg:w-1/3" key={index}>
             <PostPreview postData={item} />
           </div>
         </>

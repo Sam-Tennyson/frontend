@@ -24,7 +24,7 @@ const VarLetConst = ({ post }) => {
           href={`${process.env.URL}${asPath}`}
         />
       </Head>
-      <section className="md:w-4/5 m-auto w-96 mt-4 text-justify">
+      <section className="w-11/12 m-auto mt-4 text-justify">
         <div className="container  mx-auto">
           <div className=" divide-y-2 divide-gray-100">
             <div className="py-8 px-1 flex flex-wrap md:flex-nowrap">

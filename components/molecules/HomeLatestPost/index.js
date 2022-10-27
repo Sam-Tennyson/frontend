@@ -8,7 +8,7 @@ const HomeLatestPost = ({ postData }) => {
     return data.map((item, index) => {
       return (
         // <div className="p-4 " key={index}>
-        <div className="p-4 md:4/5 lg:w-1/3" key={index}>
+        <div className="py-2 md:px-2 w-11/12 lg:w-1/3" key={index}>
           <PostPreview postData={item} />
         </div>
       );

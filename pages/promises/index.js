@@ -17,7 +17,7 @@ const Promises = ({ post }) => {
       <meta name="description" content={currentData?.attributes?.Description} />
       <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
     </Head>
-      <section className="md:w-4/5 w-96 m-auto mt-4 text-justify">
+      <section className="w-11/12 m-auto mt-4 text-justify">
         <div className="container mx-auto">
           <div className=" divide-y-2 px-1 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">

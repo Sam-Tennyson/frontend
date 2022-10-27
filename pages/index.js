@@ -28,7 +28,7 @@ export default function Home(props) {
           content="YMsjE6W20AJUEXp9l2Y7ywCnuKpKETSied8zYAsGq6U"
         />
       </Head>
-      <div className="w-4/5 m-auto mt-4">
+      <div className="w-11/12 m-auto mt-4">
         <HomeHeader />
         <HomeLatestPost postData={data} />
       </div>
