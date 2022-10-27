@@ -14,7 +14,7 @@ const Navbar = () => {
           </a></Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href={"/all-posts"}>
-                <a className="mr-5 text-3xl hover:text-gray-900">All Post</a> 
+                <a className="mr-5 text-3xl text-gray-900 hover:text-yellow-500">All Post</a> 
             </Link>
           </nav>
         </div>

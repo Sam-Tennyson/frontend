@@ -1,15 +1,25 @@
+import Image from "next/image";
 import React from "react";
 
 const HomeHeader = () => {
   return (
     <>
       <div className="flex justify-center md:flex-col w-full mb-4">
+          {/* <Image
+            className="hidden md:block lg:hidden"
+            src={`/teacher.png`} 
+            alt="Landscape picture"
+            width={500}
+            height={500}
+            layout="fixed"
+          /> */}
           <img
             className="hidden md:block lg:hidden"
             src="teacher.png"
             alt=""
           />
         <div className="flex flex-col md:flex-row sm:flex-col rounded-lg bg-white">
+
           <img
             className=" lg:w-2/5 lg:block lg:h-auto md:hidden  object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
             src="teacher.png"

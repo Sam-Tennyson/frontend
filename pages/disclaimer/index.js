@@ -4,7 +4,7 @@ import React from "react";
 
 const Disclaimer = () => {
   const { asPath } = useRouter();
-  console.log(process.env.URL,"",asPath);
+  // console.log(process.env.URL,"",asPath);
   return (
     <>
       <Head>
@@ -25,7 +25,7 @@ const Disclaimer = () => {
       <h2 className="my-4 text-2xl font-bold">Disclaimers for Fun-with-js</h2>
 
       <p>
-        All the information on this website - https://www.funwithjs.com - is
+        All the information on this website - <a href="https://www.funwithjs.com" target="_blank"  rel="noreferrer" >https://www.funwithjs.com </a>  - is
         published in good faith and for general information purpose only.
         Fun-with-js does not make any warranties about the completeness,
         reliability and accuracy of this information. Any action you take upon

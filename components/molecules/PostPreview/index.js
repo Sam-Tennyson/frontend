@@ -3,7 +3,7 @@ import Link from "next/link";
 import moment from "moment";
 
 const PostPreview = ({ postData }) => {
-  console.log(postData.Route);
+  // console.log(postData.Route);
   return (
     <>
       

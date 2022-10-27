@@ -18,7 +18,7 @@ const PrivacyAndPolicy = () => {
       </h1>
 
       <p>
-        At Fun-with-js, accessible from https://www.funwithjs.com, one of our
+        At Fun-with-js, accessible from <a href="https://www.funwithjs.com" target="_blank"  rel="noreferrer">https://www.funwithjs.com </a>.one of our
         main priorities is the privacy of our visitors. This Privacy Policy
         document contains types of information that is collected and recorded by
         Fun-with-js and how we use it.

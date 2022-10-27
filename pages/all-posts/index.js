@@ -1,6 +1,8 @@
 import { data } from "../../postData/data";
 import React, { useEffect, useState } from "react";
 import PostPreview from "../../components/molecules/PostPreview";
+import Head from "next/head";
+import { useRouter } from "next/router";
 
 const ShowAll = ({ postData }) => {
   const [alldata, setData] = useState(data);
@@ -15,9 +17,15 @@ const ShowAll = ({ postData }) => {
       );
     });
   };
+  const { asPath } = useRouter();
 
   return (
     <>
+      <Head>
+        <title>All Post</title>
+        <meta name="description" content={"Javascript Basic"} />
+        <link rel="canonical" key="canonical" href={`${process.env.URL}${asPath}`}/>
+      </Head>
       <div className="w-4/5 m-auto">
         <h2 className="sm:text-3xl text-2xl font-medium title-font my-4 mb-4 text-gray-500 text-center">
           Important Topics

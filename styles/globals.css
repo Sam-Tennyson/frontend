@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply text-blue-500;
+  }
+}
+
 /* html,
 body {
   padding: 0;

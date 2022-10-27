@@ -22,7 +22,7 @@ const TermsAndConditions = () => {
 
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of Fun-wth-js&apos;s Website, located at https://www.funwithjs.com.
+        of Fun-wth-js&apos;s Website, located at <a href="https://www.funwithjs.com" target="_blank"  rel="noreferrer" >https://www.funwithjs.com </a>.
       </p>
 
       <p>
@@ -87,11 +87,7 @@ const TermsAndConditions = () => {
 
       <p>
         This Agreement shall begin on the date hereof. Our Terms and Conditions
-        were created with the help of the{" "}
-        <a href="https://www.termsandconditionsgenerator.com/">
-          Free Terms and Conditions Generator
-        </a>
-        .
+        were created with the help of the{" "}  Free Terms and Conditions Generator.
       </p>
 
       <p>
@@ -168,10 +164,10 @@ const TermsAndConditions = () => {
 
       <p>
         These organizations may link to our home page, to publications or to
-        other Website information so long as the link: (a) is not in any way
-        deceptive; (b) does not falsely imply sponsorship, endorsement or
-        approval of the linking party and its products and/or services; and (c)
-        fits within the context of the linking party’s site.
+        other Website information so long as the link: <br /> <br />
+        (a) is not in any way deceptive; <br />
+        (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and <br />
+        (c) fits within the context of the linking party’s site.<br /><br />
       </p>
 
       <p>
@@ -191,18 +187,17 @@ const TermsAndConditions = () => {
 
       <p>
         We will approve link requests from these organizations if we decide
-        that: (a) the link would not make us look unfavorably to ourselves or to
-        our accredited businesses; (b) the organization does not have any
-        negative records with us; (c) the benefit to us from the visibility of
-        the hyperlink compensates the absence of Fun-wth-js; and (d) the link is
-        in the context of general resource information.
+        that: <br />
+        (a) the link would not make us look unfavorably to ourselves or to our accredited businesses;<br /> (b) the organization does not have any negative records with us; <br />
+        (c) the benefit to us from the visibility of the hyperlink compensates the absence of Fun-wth-js; and <br />
+        (d) the link is in the context of general resource information.<br /><br />
       </p>
 
       <p>
-        These organizations may link to our home page so long as the link: (a)
-        is not in any way deceptive; (b) does not falsely imply sponsorship,
-        endorsement or approval of the linking party and its products or
-        services; and (c) fits within the context of the linking party&apos;s site.
+        These organizations may link to our home page so long as the link: <br />
+        (a) is not in any way deceptive; <br />
+        (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and <br />
+        (c) fits within the context of the linking party&apos;s site.<br />
       </p>
 
       <p>
@@ -321,10 +316,9 @@ const TermsAndConditions = () => {
 
       <p>
         The limitations and prohibitions of liability set in this Section and
-        elsewhere in this disclaimer: (a) are subject to the preceding
-        paragraph; and (b) govern all liabilities arising under the disclaimer,
-        including liabilities arising in contract, in tort and for breach of
-        statutory duty.
+        elsewhere in this disclaimer: <br />
+        (a) are subject to the preceding paragraph; and <br />
+        (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
       </p>
 
       <p>
